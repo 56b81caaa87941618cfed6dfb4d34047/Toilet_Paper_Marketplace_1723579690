@@ -12,5 +12,11 @@
         "content": "change this background to be bright yellow",
         "timestamp": "13082024200847",
         "message_id": "guest13082024200847"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, updating the background to bright yellow.",
+        "timestamp": "13082024200847",
+        "message_id": "guest13082024200847"
     }
 ]
