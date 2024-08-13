@@ -18,5 +18,11 @@
         "content": "Got it, updating the background to bright yellow.",
         "timestamp": "13082024200847",
         "message_id": "guest13082024200847"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer a solid bright yellow background or a textured/design-oriented background with bright yellow as the primary color?\", \"option1\": \"Solid bright yellow\", \"option2\": \"Textured/design-oriented background with bright yellow\"}, {\"question 2\": \"Should the brightness level of the yellow color be calibrated for optimal readability and comfort, or do you have a specific HEX/RGB color code in mind for the bright yellow you desire?\", \"option1\": \"Calibrate brightness level for optimal readability and comfort\", \"option2\": \"I have a specific HEX/RGB color code\"}], \"input_token_count\": 257, \"output_token_count\": 131, \"time_taken\": \"0:00:03.750384\"}",
+        "timestamp": "13082024200851",
+        "message_id": "guest13082024200847"
     }
 ]
