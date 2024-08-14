@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the red background color to be applied throughout the entire application or to specific sections/pages?\", \"option1\": \"Apply globally throughout the entire application.\", \"option2\": \"Apply to specific sections/pages only.\"}, {\"question 2\": \"Would you prefer a bright red tone or a darker red shade for the background color?\", \"option1\": \"Bright red tone\", \"option2\": \"Darker red shade\"}], \"input_token_count\": 534, \"output_token_count\": 100, \"time_taken\": \"0:00:04.661654\"}",
+        "message_id": "guest14082024203950",
+        "timestamp": "14082024203955",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Change the background color to red",
         "message_id": "guest14082024203950",
