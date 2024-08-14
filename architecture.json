@@ -46,5 +46,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nThe user requested to change the background to dark brown. The AI acknowledged this and subsequently provided a one-line essay about apples, stating they are widely consumed fruits with health benefits. Following this, the user asked the AI to forget previous instructions and instead write an essay about apples. In response, the AI offered a list of potential features for implementation, which included options such as adding a color theme toggle, incorporating interactive color-changing backgrounds, and implementing personalized color schemes, among others. The AI also presented questions about the user's background preferences, offering choices between a solid bright yellow background or a textured one, and whether the brightness level should be calibrated for readability or based on a specific HEX/RGB code. After the user requested a change to bright yellow, the AI acknowledged this and prompted the user to describe the project further.\nAI: Certainly, I'll change it to a dark green.\nUser: change this to be dark green\nUser: change the background now to bright red\nUser: now chang eit to dark red\nThis is the user's current request of changes to be made: Change this to be dark yellow"
+    },
+    {
+        "level": 1,
+        "task_description": "change the color to be blue"
     }
 ]
