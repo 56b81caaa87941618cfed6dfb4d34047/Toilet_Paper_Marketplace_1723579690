@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific shade of blue in mind for the color change, or would you like us to select a shade that best fits the current design?\", \"option1\": \"I have a specific shade in mind (Please provide the hex code or color sample).\", \"option2\": \"Please select a shade that you believe will best fit the current design.\"}, {\"question 2\": \"Would you like this color change applied globally across the entire application or only specific elements (e.g., buttons, headers, text)?\", \"option1\": \"Apply the color change globally across the entire application.\", \"option2\": \"Apply the color change to specific elements only (Please specify which ones).\"}], \"input_token_count\": 256, \"output_token_count\": 155, \"time_taken\": \"0:00:04.382521\"}",
+        "message_id": "guest14082024191028",
+        "timestamp": "14082024191033",
+        "component_file_name": "purple_background_cta_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, I'll change the color to blue.",
         "message_id": "guest14082024191028",
