@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the dark amber background color to be applied globally across the entire app or selectively to specific pages or sections?\", \"option1\": \"Apply globally\", \"option2\": \"Apply selectively to certain pages/sections\"}, {\"question 2\": \"For the dark amber background, do you have a specific shade or hex code in mind to ensure we match your exact preference?\", \"option1\": \"Yes, I will provide a specific shade/hex code\", \"option2\": \"No, please proceed with a standard dark amber shade\"}], \"input_token_count\": 574, \"output_token_count\": 123, \"time_taken\": \"0:00:04.120202\"}",
+        "message_id": "guest14082024204440",
+        "timestamp": "14082024204445",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Please change the background color to dark ambmer",
         "message_id": "guest14082024204440",
