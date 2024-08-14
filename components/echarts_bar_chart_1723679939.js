@@ -153,6 +153,7 @@ Vue.component('echarts_bar_chart_1723679939', {
                 star.style.backgroundColor = '#8B4513';
                 star.style.borderRadius = '50%';
                 star.style.opacity = Math.random();
+                star.style.boxShadow = '0 0 2px #8B4513';
                 starsContainer.appendChild(star);
             }
         },        
