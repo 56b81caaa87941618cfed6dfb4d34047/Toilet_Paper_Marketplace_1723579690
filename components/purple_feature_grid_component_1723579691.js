@@ -6,7 +6,7 @@ The feature sections are organised in a grid of two rows, each with three column
 Vue.component("purple_feature_grid_component_1723579691", {
     template: `
     <!-- Features list -->
-    <div id="features-grid" class="grid md:grid-cols-3 gap-8 md:gap-12 bg-white p-5">
+    <div id="features-grid" style="min-height: 270px" class="grid md:grid-cols-3 gap-8 md:gap-12 bg-white p-5">
         <!-- Feature -->
         <div id="feature-1">
             <div id="feature-1-header" class="flex items-center space-x-2 mb-1">
