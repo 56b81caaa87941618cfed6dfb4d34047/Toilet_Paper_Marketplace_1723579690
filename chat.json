@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the dark red background to apply to the entire website, or only specific sections?\", \"option1\": \"Entire website\", \"option2\": \"Specific sections only\"}, {\"question 2\": \"Do you have a specific shade of dark red in mind, or would you like us to choose a standard shade?\", \"option1\": \"I have a specific shade in mind\", \"option2\": \"Please choose a standard shade\"}], \"input_token_count\": 375, \"output_token_count\": 104, \"time_taken\": \"0:00:04.599246\"}",
+        "message_id": "guest14082024073429",
+        "timestamp": "14082024073434",
+        "component_file_name": "purple_background_cta_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "now chang eit to dark red",
         "message_id": "guest14082024073429",
