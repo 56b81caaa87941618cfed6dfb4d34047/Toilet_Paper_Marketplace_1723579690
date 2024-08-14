@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the brown stars to be a static background or should they animate (e.g., twinkle, rotate)?\", \"option1\": \"Static background\", \"option2\": \"Animate the stars\"}, {\"question 2\": \"How densely packed should the brown stars be in the background?\", \"option1\": \"Sparse - with a lot of space between each star\", \"option2\": \"Dense - more stars, less space between them\"}], \"input_token_count\": 256, \"output_token_count\": 106, \"time_taken\": \"0:00:03.699765\"}",
+        "message_id": "guest14082024235903",
+        "timestamp": "14082024235908",
+        "component_file_name": "echarts_bar_chart_1723679939",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, I'll add brown stars to the background.",
         "message_id": "guest14082024235903",
