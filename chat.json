@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, I'll change the color to blue.",
+        "message_id": "guest14082024191028",
+        "timestamp": "14082024191029",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "change the color to be blue",
         "message_id": "guest14082024191028",
