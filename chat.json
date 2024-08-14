@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Change the background color to black",
+        "message_id": "guest14082024204114",
+        "timestamp": "14082024204115",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it. Adjusting background color to black.",
         "message_id": "guest14082024204114",
