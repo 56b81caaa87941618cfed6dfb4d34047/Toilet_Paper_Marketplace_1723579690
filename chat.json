@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the brown background to have a specific hue or saturation level to ensure it aligns with your brand or aesthetic preferences?\", \"option1\": \"Yes, I have specific hue and saturation levels in mind.\", \"option2\": \"No, any shade of brown that looks professional is fine.\"}, {\"question 2\": \"Do you need the brown background applied across all pages and sections of the app or only in specific areas?\", \"option1\": \"Yes, apply it across all pages and sections.\", \"option2\": \"No, only apply it in specific areas I will detail.\"}], \"input_token_count\": 572, \"output_token_count\": 133, \"time_taken\": \"0:00:04.938042\"}",
+        "message_id": "guest14082024204243",
+        "timestamp": "14082024204248",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, working on changing the background color to brown.",
         "message_id": "guest14082024204243",
