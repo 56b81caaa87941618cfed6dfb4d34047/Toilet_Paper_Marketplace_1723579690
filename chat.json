@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer the bright yellow background to be applied site-wide or only on specific pages?\", \"option1\": \"Apply site-wide\", \"option2\": \"Apply only on specific pages\"}, {\"question 2\": \"Is there a specific shade of bright yellow you have in mind, or would you like us to select a vibrant option for you?\", \"option1\": \"I have a specific shade in mind\", \"option2\": \"Please select a vibrant option for me\"}], \"input_token_count\": 604, \"output_token_count\": 110, \"time_taken\": \"0:00:07.585747\"}",
+        "message_id": "guest14082024193039",
+        "timestamp": "14082024193048",
+        "component_file_name": "purple_background_cta_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "change the background to be bright yellow",
         "message_id": "guest14082024193039",
