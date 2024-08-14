@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like a specific shade of brown for the background to ensure it aligns with your brand identity or do you prefer us to suggest a few options based on current design trends?\", \"option1\": \"I have a specific shade in mind.\", \"option2\": \"Please suggest a few options based on current design trends.\"}, {\"question 2\": \"Do you want the background color change to apply to all pages of the website or only specific sections/pages?\", \"option1\": \"Apply to all pages of the website.\", \"option2\": \"Only specific sections/pages.\"}], \"input_token_count\": 256, \"output_token_count\": 129, \"time_taken\": \"0:00:02.717717\"}",
+        "message_id": "guest14082024203627",
+        "timestamp": "14082024203631",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Change the background color to brown",
         "message_id": "guest14082024203627",
