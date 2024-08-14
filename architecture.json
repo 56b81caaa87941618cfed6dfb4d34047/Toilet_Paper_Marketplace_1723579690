@@ -114,5 +114,9 @@
     {
         "level": 1,
         "task_description": "Change the background color to black"
+    },
+    {
+        "level": 1,
+        "task_description": "Change the background color to black"
     }
 ]
