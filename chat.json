@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, I'll add brown stars to the background.",
+        "message_id": "guest14082024235903",
+        "timestamp": "14082024235904",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add brown stars to the background",
         "message_id": "guest14082024235903",
