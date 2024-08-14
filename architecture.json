@@ -50,5 +50,9 @@
     {
         "level": 1,
         "task_description": "change the color to be blue"
+    },
+    {
+        "level": 1,
+        "task_description": "change the color to be blue"
     }
 ]
