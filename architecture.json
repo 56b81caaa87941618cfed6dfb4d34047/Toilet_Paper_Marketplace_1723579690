@@ -58,5 +58,9 @@
     {
         "level": 1,
         "task_description": "change the color to be green"
+    },
+    {
+        "level": 1,
+        "task_description": "change the color to be green"
     }
 ]
