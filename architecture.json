@@ -82,5 +82,9 @@
     {
         "level": 1,
         "task_description": "Change the background color to brown"
+    },
+    {
+        "level": 1,
+        "task_description": "Change the background color to brown"
     }
 ]
