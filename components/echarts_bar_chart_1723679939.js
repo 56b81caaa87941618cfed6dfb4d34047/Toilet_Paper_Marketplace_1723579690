@@ -5,8 +5,9 @@
 
 Vue.component('echarts_bar_chart_1723679939', {
     template:`
-      <div style="display: flex; justify-content: center;">
-          <div id="bar-chart" style="width: 100%; height: 50vh;"></div>
+      <div style="display: flex; justify-content: center; position: relative; overflow: hidden;">
+          <div id="bar-chart" style="width: 100%; height: 50vh; z-index: 1;"></div>
+          <div class="stars" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;"></div>
       </div>
     `,
       data() {
@@ -139,6 +140,21 @@ Vue.component('echarts_bar_chart_1723679939', {
             };
 
             barChart.setOption(option);
+
+            // Add brown stars to the background
+            const starsContainer = document.querySelector('.stars');
+            for (let i = 0; i < 50; i++) {
+                const star = document.createElement('div');
+                star.style.position = 'absolute';
+                star.style.left = `${Math.random() * 100}%`;
+                star.style.top = `${Math.random() * 100}%`;
+                star.style.width = '2px';
+                star.style.height = '2px';
+                star.style.backgroundColor = '#8B4513';
+                star.style.borderRadius = '50%';
+                star.style.opacity = Math.random();
+                starsContainer.appendChild(star);
+            }
         },        
         // end render_bar_chart() method
     }        
