@@ -48,5 +48,11 @@
         "content": "change the background to be dark brown",
         "timestamp": "14082024073226",
         "message_id": "guest14082024073226"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the dark brown background to be applied site-wide or only on specific pages/sections?\", \"option1\": \"Site-wide\", \"option2\": \"Specific pages/sections only\"}, {\"question 2\": \"Should the text and other elements' colors be adjusted to maintain readability and contrast with the dark brown background?\", \"option1\": \"Yes, adjust colors for readability\", \"option2\": \"No, keep current colors\"}], \"input_token_count\": 257, \"output_token_count\": 103, \"time_taken\": \"0:00:05.089159\"}",
+        "timestamp": "14082024073234",
+        "message_id": "guest14082024073226"
     }
 ]
