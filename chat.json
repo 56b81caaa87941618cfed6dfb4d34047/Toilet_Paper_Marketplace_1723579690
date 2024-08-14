@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer a solid black background or a gradient with another color?\", \"option1\": \"Solid black\", \"option2\": \"Black gradient with another color\"}, {\"question 2\": \"Should this color change apply to all pages or only specific ones?\", \"option1\": \"All pages\", \"option2\": \"Only specific pages\"}], \"input_token_count\": 256, \"output_token_count\": 83, \"time_taken\": \"0:00:03.270948\"}",
+        "message_id": "guest14082024204114",
+        "timestamp": "14082024204118",
+        "component_file_name": "dark_footer_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Change the background color to black",
         "message_id": "guest14082024204114",
