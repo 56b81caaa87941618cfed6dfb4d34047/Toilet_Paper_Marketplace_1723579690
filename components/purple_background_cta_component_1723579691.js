@@ -5,12 +5,12 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 Vue.component("purple_background_cta_component_1723579691", {
     template: `
     <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-red-600">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-red-700">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-green-900">
+            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-green-800">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120 opacity-70 bg-red-600">
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40 bg-red-500">
+                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120 opacity-70 bg-green-900">
+                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40 bg-green-800">
                     </div>
                 </div>
                 <!-- Blurred shape -->
@@ -34,8 +34,8 @@ Vue.component("purple_background_cta_component_1723579691", {
             return {
                 expanded: false, 
                 tab: null,
-                radialGradientPrimaryStyle: "bg-red-500",
-                radialGradientSecondaryStyle: "bg-red-400",
+                radialGradientPrimaryStyle: "bg-green-800",
+                radialGradientSecondaryStyle: "bg-green-700",
                 stopColorPrimaryStyle: "#FDE047",
                 stopColorSecondaryStyle: "#FEF08A",
                 transparentTextStyle: "text-transparent",
