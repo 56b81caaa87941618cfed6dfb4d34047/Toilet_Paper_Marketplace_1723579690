@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the bright red background color to apply throughout the entire website or only on specific pages?\", \"option1\": \"Entire website\", \"option2\": \"Specific pages only\"}, {\"question 2\": \"Do you have a particular shade of bright red in mind, or would you like us to select a standard bright red color for you?\", \"option1\": \"I have a specific shade in mind\", \"option2\": \"Please select a standard bright red for me\"}], \"input_token_count\": 430, \"output_token_count\": 112, \"time_taken\": \"0:00:04.321246\"}",
+        "message_id": "guest14082024073822",
+        "timestamp": "14082024073827",
+        "component_file_name": "purple_background_cta_component_1723579691",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "change the background now to bright red",
         "message_id": "guest14082024073822",
