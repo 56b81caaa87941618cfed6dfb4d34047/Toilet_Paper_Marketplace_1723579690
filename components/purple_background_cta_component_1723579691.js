@@ -22,10 +22,10 @@ Vue.component("purple_background_cta_component_1723579691", {
                 </div>
                 <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Cool Blue Deals, Delivered to Your Door</div></div>
-                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Roll into Savings: Your Toilet Paper Marketplace</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Discover the ultimate destination for all your toilet paper needs. From budget-friendly options to premium quilted luxury, we've got your bottom line covered.</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-blue-200" :class="[transparentTextStyle, contentSubtitleStyle]">Cool Blue Deals, Delivered to Your Door</div></div>
+                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 text-white" :class="[transparentTextStyle, contentCtaTitleStyle]"> Roll into Savings: Your Toilet Paper Marketplace</h2></div>
+                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-blue-100" :class="[contentBodyStyle]">Discover the ultimate destination for all your toilet paper needs. From budget-friendly options to premium quilted luxury, we've got your bottom line covered.</p></div>
+                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group bg-blue-500 text-white hover:bg-blue-600" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
                 </div>
             </div>
         </div>
