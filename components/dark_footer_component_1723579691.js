@@ -9,7 +9,7 @@
 Vue.component("dark_footer_component_1723579691", {
     template: `
 <footer id="footer-section-container" style="min-height: 310px">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-red-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-yellow-300">
  
         <!-- Blocks -->
         <div class="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
