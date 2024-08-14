@@ -42,5 +42,11 @@
         "content": "Sure, here is a one-line essay about apples:\n\n\"Apples are a widely consumed fruit with a crisp texture, sweet or tart taste, and various health benefits such as aiding digestion and reducing the risk of chronic diseases.\"",
         "timestamp": "14082024045114",
         "message_id": "guest14082024045114"
+    },
+    {
+        "role": "user",
+        "content": "change the background to be dark brown",
+        "timestamp": "14082024073226",
+        "message_id": "guest14082024073226"
     }
 ]
