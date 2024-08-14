@@ -4,7 +4,7 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1723579691", {
     template: `
-    <section id="cta-section-container">
+    <section id="cta-section-container" style="min-height: 630px">
         <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-green-900">
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-green-800">
                 <!-- Radial gradient -->
