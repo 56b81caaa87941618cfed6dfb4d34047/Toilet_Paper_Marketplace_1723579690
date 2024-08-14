@@ -5,12 +5,12 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 Vue.component("purple_background_cta_component_1723579691", {
     template: `
     <section id="cta-section-container" style="min-height: 630px">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-yellow-900">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-yellow-800">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-blue-900">
+            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-blue-800">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120 opacity-70 bg-yellow-900">
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40 bg-yellow-800">
+                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120 opacity-70 bg-blue-900">
+                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40 bg-blue-800">
                     </div>
                 </div>
                 <!-- Blurred shape -->
@@ -22,7 +22,7 @@ Vue.component("purple_background_cta_component_1723579691", {
                 </div>
                 <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Flush-worthy Deals, Delivered to Your Door</div></div>
+                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Cool Blue Deals, Delivered to Your Door</div></div>
                     <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Roll into Savings: Your Toilet Paper Marketplace</h2></div>
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Discover the ultimate destination for all your toilet paper needs. From budget-friendly options to premium quilted luxury, we've got your bottom line covered.</p></div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
@@ -34,18 +34,18 @@ Vue.component("purple_background_cta_component_1723579691", {
             return {
                 expanded: false, 
                 tab: null,
-                radialGradientPrimaryStyle: "bg-yellow-800",
-                radialGradientSecondaryStyle: "bg-yellow-700",
-                stopColorPrimaryStyle: "#FDE047",
-                stopColorSecondaryStyle: "#FEF08A",
+                radialGradientPrimaryStyle: "bg-blue-800",
+                radialGradientSecondaryStyle: "bg-blue-700",
+                stopColorPrimaryStyle: "#3B82F6",
+                stopColorSecondaryStyle: "#60A5FA",
                 transparentTextStyle: "text-transparent",
-                contentSubtitleStyle: "bg-gradient-to-r from-yellow-400 to-yellow-200",
+                contentSubtitleStyle: "bg-gradient-to-r from-blue-400 to-blue-200",
                 contentCtaTitleStyle: "bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60",
                 contentBodyStyle: "text-slate-400",
                 contentCtaButtonPrimaryStyle:"text-slate-900",
                 contentCtaButtonGradientStyle: "bg-gradient-to-r from-white/80 via-white to-white/80",
                 contentCtaButtonHoverStyle: "hover:bg-white",
-                contentCtaArrowStyle: "text-yellow-500"
+                contentCtaArrowStyle: "text-blue-500"
             };
         },
     });
