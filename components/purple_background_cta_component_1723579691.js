@@ -5,7 +5,8 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 Vue.component("purple_background_cta_component_1723579691", {
     template: `
     <section id="cta-section-container" style="min-height: 150px" >
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-red-900">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-red-900 relative">
+
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-red-800">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
@@ -20,6 +21,16 @@ Vue.component("purple_background_cta_component_1723579691", {
                         <path fill="url(#bs5-a)" fill-rule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)" />
                     </svg>
                 </div>
+                <!-- Brown stars -->
+                <div class="absolute inset-0 overflow-hidden pointer-events-none">
+                    <div class="absolute top-1/4 left-1/4 text-brown-500 text-4xl">★</div>
+                    <div class="absolute top-1/2 left-3/4 text-brown-500 text-3xl">★</div>
+                    <div class="absolute top-3/4 left-1/2 text-brown-500 text-5xl">★</div>
+                    <div class="absolute top-1/3 right-1/4 text-brown-500 text-2xl">★</div>
+                    <div class="absolute bottom-1/4 right-1/3 text-brown-500 text-4xl">★</div>
+                </div>
+                <!-- Content -->
+
                 <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
                     <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-red-200" :class="[transparentTextStyle, contentSubtitleStyle]">Cool Green Deals, Delivered to Your Door</div></div>
