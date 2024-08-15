@@ -23,11 +23,11 @@ Vue.component("purple_background_cta_component_1723579691", {
                 </div>
                 <!-- Brown stars -->
                 <div class="absolute inset-0 overflow-hidden pointer-events-none">
-                    <div class="absolute top-1/4 left-1/4 text-brown-500 text-4xl">★</div>
-                    <div class="absolute top-1/2 left-3/4 text-brown-500 text-3xl">★</div>
-                    <div class="absolute top-3/4 left-1/2 text-brown-500 text-5xl">★</div>
-                    <div class="absolute top-1/3 right-1/4 text-brown-500 text-2xl">★</div>
-                    <div class="absolute bottom-1/4 right-1/3 text-brown-500 text-4xl">★</div>
+                    <div class="absolute top-1/4 left-1/4 text-purple-300 text-4xl">★</div>
+                    <div class="absolute top-1/2 left-3/4 text-purple-300 text-3xl">★</div>
+                    <div class="absolute top-3/4 left-1/2 text-purple-300 text-5xl">★</div>
+                    <div class="absolute top-1/3 right-1/4 text-purple-300 text-2xl">★</div>
+                    <div class="absolute bottom-1/4 right-1/3 text-purple-300 text-4xl">★</div>
                 </div>
                 <!-- Content -->
 
